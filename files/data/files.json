@@ -1,0 +1,14 @@
+[
+  {"name":"VM defaults","type":"json","category":"config/","description":"Konfigurasi dasar mesin virtual","href":"config/vm-defaults.json"},
+  {"name":"ISO checklist","type":"json","category":"iso/","description":"Metadata dan langkah verifikasi ISO","href":"iso/iso-checklist.json"},
+  {"name":"VM profile","type":"json","category":"config/","description":"Contoh profil VM untuk lab","href":"config/profiles/development.json"},
+  {"name":"Network guide","type":"md","category":"docs/","description":"Mode jaringan virtual","href":"docs/networking.md"},
+  {"name":"Storage guide","type":"md","category":"docs/","description":"Penyimpanan dan snapshot","href":"docs/storage.md"},
+  {"name":"Setup guide","type":"md","category":"docs/","description":"Panduan persiapan Windows 11","href":"docs/setup.md"},
+  {"name":"VM inventory","type":"json","category":"data/","description":"Contoh daftar mesin virtual","href":"data/vm-inventory.json"},
+  {"name":"Main stylesheet","type":"css","category":"assets/css/","description":"Tema dasbor","href":"assets/css/main.css"},
+  {"name":"Dashboard script","type":"js","category":"assets/js/","description":"Pencarian daftar berkas","href":"assets/js/app.js"},
+  {"name":"HTML dashboard","type":"html","category":"root","description":"Halaman utama workspace","href":"index.html"},
+  {"name":"ISO README","type":"md","category":"iso/","description":"Petunjuk media instalasi","href":"iso/README.md"},
+  {"name":"Security checklist","type":"json","category":"config/","description":"Daftar pemeriksaan keamanan","href":"config/security-checklist.json"}
+]

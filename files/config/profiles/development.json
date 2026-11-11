@@ -1,0 +1,9 @@
+{
+  "profileName": "Development lab",
+  "guestOS": "Windows 11 (64-bit)",
+  "resources": {"memoryMB": 12288, "cpuCores": 6, "diskGB": 120},
+  "firmware": {"uefi": true, "secureBoot": true, "tpmVersion": "2.0"},
+  "network": {"mode": "NAT", "portForwarding": []},
+  "sharedFolders": [],
+  "warning": "Adjust these example settings to the host and hypervisor; never expose shared folders containing sensitive data."
+}

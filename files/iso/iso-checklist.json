@@ -1,0 +1,9 @@
+{
+  "checks": [
+    {"id":"official-source","label":"ISO diperoleh dari sumber resmi Microsoft","required":true},
+    {"id":"license","label":"Lisensi dan hak penggunaan telah dipastikan","required":true},
+    {"id":"checksum","label":"Checksum SHA-256 diverifikasi jika nilai resmi tersedia","required":true},
+    {"id":"local-only","label":"ISO disimpan lokal dan tidak dimasukkan ke Git","required":true},
+    {"id":"install-media","label":"ISO dipasang sebagai media optik virtual","required":false}
+  ]
+}

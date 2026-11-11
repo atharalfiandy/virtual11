@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dasbor lokal untuk menyiapkan dan mengelola berkas mesin virtual Windows 11.">
+  <title>Virtual11 — VM Manager</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Virtual11 beranda"><span class="brand-mark">V</span><span>Virtual<span class="brand-light">11</span></span></a>
+    <span class="local-label"><span class="status-dot"></span> Dasbor lokal</span>
+  </header>
+  <main id="home" class="container">
+    <section class="hero">
+      <p class="eyebrow">VIRTUAL MACHINE WORKSPACE</p>
+      <h1>Siapkan Windows 11<br><span>di mesin virtual.</span></h1>
+      <p class="intro">Kelola konfigurasi, media instalasi, dan catatan VM dari satu tempat.</p>
+      <div class="hero-actions"><a class="button primary" href="#setup">Lihat panduan setup <span aria-hidden="true">↘</span></a><a class="button secondary" href="#files">Jelajahi berkas</a></div>
+    </section>
+    <section class="stats" aria-label="Ringkasan berkas"><article class="stat-card"><span class="stat-icon">▦</span><div><strong id="file-count">—</strong><span>item workspace</span></div></article><article class="stat-card"><span class="stat-icon">◈</span><div><strong>Windows 11</strong><span>target guest OS</span></div></article><article class="stat-card"><span class="stat-icon">◉</span><div><strong>ISO eksternal</strong><span>media instalasi</span></div></article></section>
+    <section id="setup" class="panel setup-panel"><div class="section-heading"><div><p class="eyebrow">MULAI DI SINI</p><h2>Checklist setup</h2></div><span class="pill">4 langkah</span></div><ol class="checklist"><li><span class="step-number">01</span><div><strong>Pilih hypervisor</strong><p>Gunakan VirtualBox, VMware, Hyper-V, atau QEMU/KVM yang sudah terpasang.</p></div></li><li><span class="step-number">02</span><div><strong>Siapkan ISO resmi</strong><p>Unduh ISO Windows 11 dari situs Microsoft. ISO tidak disertakan dalam repository ini.</p></div></li><li><span class="step-number">03</span><div><strong>Atur VM</strong><p>Gunakan contoh konfigurasi di <code>config/vm-defaults.json</code> sebagai titik awal.</p></div></li><li><span class="step-number">04</span><div><strong>Boot dan instal</strong><p>Pasang ISO ke virtual optical drive, lalu ikuti installer Windows.</p></div></li></ol></section>
+    <section id="files" class="panel"><div class="section-heading"><div><p class="eyebrow">WORKSPACE</p><h2>File & folder</h2></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="file-search" type="search" placeholder="Cari file…" aria-label="Cari file"></label></div><div id="file-grid" class="file-grid" aria-live="polite"></div><p id="empty-state" class="empty-state" hidden>Tidak ada file yang cocok.</p></section>
+    <section class="notice"><span class="notice-icon" aria-hidden="true">i</span><div><strong>Catatan ISO</strong><p>File ISO berukuran besar dan memiliki lisensi tersendiri. Unduh dari sumber resmi Microsoft dan simpan di folder lokal yang tidak di-commit ke Git.</p></div></section>
+  </main>
+  <footer class="footer"><span>Virtual11 · Workspace starter</span><span>Jangan commit ISO, image disk, atau kredensial.</span></footer>
+</body>
+</html>

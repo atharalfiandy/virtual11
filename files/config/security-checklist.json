@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Pilih hypervisor dan versi yang didukung.",
+    "Batasi hak akses folder bersama dan clipboard sharing.",
+    "Gunakan NAT secara default bila sesuai kebutuhan.",
+    "Simpan password dan token di password manager, bukan file konfigurasi.",
+    "Perbarui host, hypervisor, dan guest OS.",
+    "Jangan commit ISO, virtual disk, snapshot, log sensitif, atau kredensial."
+  ]
+}

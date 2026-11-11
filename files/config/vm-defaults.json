@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "profileName": "Windows 11 - general purpose",
+  "provider": "Choose VirtualBox, VMware, Hyper-V, or QEMU/KVM",
+  "guestOS": "Windows 11 (64-bit)",
+  "resources": {
+    "memoryMB": 8192,
+    "cpuCores": 4,
+    "diskGB": 80,
+    "diskFormat": "provider-native; dynamically allocated recommended"
+  },
+  "firmware": {
+    "uefi": true,
+    "secureBoot": "Enable when supported by the selected hypervisor",
+    "tpm": "TPM 2.0 virtual device required for supported Windows 11 installation"
+  },
+  "display": {"videoMemoryMB": 128, "graphicsAcceleration": "provider-dependent"},
+  "network": {"mode": "NAT", "notes": "Use bridged networking only when required and understood."},
+  "installationMedia": {"path": "LOCAL_ONLY: place your licensed ISO outside this repository", "bootOrder": ["optical", "disk"]},
+  "notes": [
+    "Example values only; tune for host capacity and hypervisor requirements.",
+    "This JSON is documentation and is not automatically applied to a VM.",
+    "Do not commit ISO files, virtual disks, snapshots, or secrets."
+  ]
+}

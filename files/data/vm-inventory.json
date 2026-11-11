@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "machines": [
+    {
+      "name": "win11-lab",
+      "status": "example-only",
+      "provider": "not-selected",
+      "config": "../config/vm-defaults.json",
+      "diskPath": "LOCAL_ONLY: configure a local path in your hypervisor",
+      "lastStarted": null
+    }
+  ]
+}
